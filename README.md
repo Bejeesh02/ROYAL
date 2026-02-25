@@ -13,7 +13,7 @@
     font-family: Arial, Helvetica, sans-serif;
     box-sizing:border-box;
 }
-.fist{
+ .fist{
     background-color: yellowgreen;
     text-align: center;
     height: 50px;
@@ -24,7 +24,7 @@
     width: 100%;
     z-index: 10;
 }
-nav{
+ nav{
     background-color: black;
     text-align: center;
     align-items: center ;
@@ -62,7 +62,6 @@ nav img{
 .navb .nav1{
     visibility: hidden;
 }
-
 .nav1 a button{
     width: 400px;
     margin-left: 40px;
@@ -79,7 +78,6 @@ nav img{
     text-align: center;
     align-items: center;
 }
-
 .home{
     width: 100%;
     overflow: hidden;
@@ -96,7 +94,6 @@ nav img{
 }
 .riding img{
     width: 340px;
-    
 }
 .rid{
     background-color: whitesmoke;
@@ -119,38 +116,30 @@ nav img{
     padding-left: 50px;
     margin-bottom: 30px;
 }
-
-
 .zoom {
     display: flex;
     width: 100%;
     overflow: hidden;
 }
-
-
 .zoom div img {
     width: 100%;
     height: 400px;
     transition: 0.3s;
 }
-
 .zoom div h4 {
     margin-top: -50px;
     color: white;
     padding-left: 50px;
     transition: 0.3s;
 }
-
 .zoom:hover div img {
     width: 300px;
     opacity: 0.6;
 }
-
 .zoom div:hover img {
     width: 100%;
     opacity: 1;
 }
-
 .zoom div:hover h4 {
     font-size: 40px;
     transition: 0.6;
@@ -164,7 +153,6 @@ nav img{
 .tnow h4{
     font-size: 30px;
 }
-
 .tr{
     display: flex;
     gap: 20px;
@@ -225,42 +213,33 @@ nav img{
     border: 2px solid;
     transition: 0.7s;
 }
-
-
-
 .footer {
     background: #000;
     color: #fff;
     padding: 60px 40px;
     font-family: Arial, sans-serif;
 }
-
 .footer-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 40px;
 }
-
 .footer-col {
     flex: 1 1 230px;
 }
-
 .footer-col h3 {
     margin-bottom: 10px;
     font-size: 17px;
     font-weight: bold;
 }
-
 .footer-col ul {
     list-style: none;
     padding: 0;
 }
-
 .footer-col ul li {
     margin: 7px 0;
 }
-
 .footer-col a {
     color: #fff;
     text-decoration: none;
@@ -268,8 +247,6 @@ nav img{
 .footer-col a:hover {
     color: #ccc;
 }
-
-
 .footer-btn {
     display: block;
     padding: 18px;
@@ -283,7 +260,6 @@ nav img{
 .footer-btn:hover {
     background: #222;
 }
-
 /* Newsletter Form */
 .newsletter-box {
     display: flex;
@@ -307,22 +283,18 @@ nav img{
 .newsletter-box button:hover {
     background: #666;
 }
-
-
 .checkbox {
     display: flex;
     gap: 6px;
     margin: 10px 0 20px;
     font-size: 14px;
 }
-
 .footer-bottom {
     text-align: center;
     border-top: 1px solid #333;
     margin-top: 50px;
     padding-top: 25px;
 }
-
 .social-icons a {
     color: #fff;
     margin: 0 8px;
@@ -331,7 +303,6 @@ nav img{
 .social-icons a:hover {
     color: #aaa;
 }
-
 .back-top {
     display: block;
     margin-top: 10px;
@@ -341,14 +312,11 @@ nav img{
 .back-top:hover {
     color: #888;
 }
-
 @media (max-width: 768px) {
     .footer-container {
         flex-direction: column;
     }
 }
-
-
     </style>
 
 </head>
